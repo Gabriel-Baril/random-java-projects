@@ -1,0 +1,127 @@
+HText
+HImage
+
+HBorder
+	HLeftBorder
+	HRightBorder
+	HTopBorder
+	HBottomBorder
+
+HBorderDecorator
+	HRoundBorderDecorator
+		HTopRightRoundBorderDecorator
+		HBottomRightRoundBorderDecorator
+		HTopLeftRoundBorderDecorator
+		HBottomLeftRoundBorderDecorator
+	HSideBorderDecorator
+		HLeftBorderDecorator
+		HRightBorderDecorator
+		HTopBorderDecorator
+		HBottomBorderDecorator
+
+
+HEntity
+	HWidget
+		HComponent
+			HBoxComponent
+				HFrame [HContainer]
+				HSlider
+					HVerticalSlider     
+					HHorizontalSlider   
+				HButton               
+					HToggleButton       
+					HRadioButton        
+					HRadialButton       
+				HLabel                
+					HTextLabel          
+					HDateLabel          
+						HDayLabel         
+						HWeekLabel        
+						HMonthLabel       
+					HDateTimeLabel      
+					HTimeLabel          
+					HNumberLabel        
+					HPasswordLabel      
+					HURLLabel           
+						HWebURLLabel      
+						HFileURLLabel     
+					HColorLabel         
+						HRGBColorLabel    
+						HHSLColorLabel    
+					HPPhoneNumberLabel  
+					HHexaLabel          
+					HEmailLabel         
+					HImageLabel         
+				HField [abstract]     
+					HTextField          
+					HDateField          
+						HDayField
+						HWeekField
+						HMonthField
+					HDateTimeField
+					HTimeField
+					HNumberField
+					HPasswordField
+					HURLField
+						HWebURLField
+						HFileURLField
+					HColorField
+						HRGBColorField
+						HHSLColorField
+					HPPhoneNumberField
+					HHexaField
+					HEmailField
+					HImageField
+				HPicker
+					HDatePicker
+					HTimePicker
+					HFilePicker
+					HColorPicker
+				HCheckBox
+				HCheckBoxGroup
+				HDropDownList
+				HComboBox
+				HListBoxes
+				HList
+				HTextArea
+			HPolyComponent
+		HDecorator
+	HBehavior
+		HClosable
+		HDraggable
+		HRightClikable
+		
+		
+-----------------------------------------
+Name Variant Example
+
+HTextField   [Normal]
+TEXTFIELD	   [Uppercase]
+H_TEXT_FIELD [NormalSnakeUppercase]
+TEXT_FIELD	 [SnakeUppercase]
+
+----------------------------------------------
+TO DO:
+
+Corriger le NullPointerException quand on essaye de dragger un HFrame
+Commencer la gestion des fps pour les HWindow
+Ajouter un ArrayList de HComponent dans la classe HFrame
+Faire l'architecture, la logique et commencer le rendu des HLabel
+Réfléchir sur l'architecture d'event entre la classe HBehavior et les classes héritant de HWidget
+Finaliser la gestion des MouseInput entre HWindow<->Mouse
+Commencer la gestion des ScrollWheelInput entre HWindow<->ScrollWheel
+Commencer la gestion des WindowInput entre HWindow<->Window
+Commencer la gestion des KeyBoardInput entre HWindow<->Keyboard
+
+Commencer à gérer le layout des HWidget dans les HFrame
+Facilititer le rendu des éléments en créant une library graphique(reudu) utilitaire
+Ajouter un filtreur de HDecorator dans la classe ( HWidget | HComponent )
+Continuer le développement du logger
+Commencer la library de Math
+Repenser l'architecture des packages et updater toute les références pour le bon fonctionnement
+
+Faire le travail colossal de regrouper les méthodes communes de chaque classe pour créer et améliorer l'architecture du GUI
+Continuer l'architecture des superclasses HEntity, HWidget, HComponent, HBoxComponent, HDecorator, HBehavior
+
+
+

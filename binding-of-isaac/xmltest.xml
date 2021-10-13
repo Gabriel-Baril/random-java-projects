@@ -1,0 +1,9 @@
+<room type="1" variant="127" stage="2" rarity="1" width="13" height="7">
+	<door x="-1" y="4"/>
+	<door x="4" y="-1"/>
+	<door x="7" y="4"/>
+
+	<spawm id="tamer">
+		<entity type="1" id="34"/>
+	</spawm>
+</room>

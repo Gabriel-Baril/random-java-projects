@@ -1,0 +1,9 @@
+Raw File Data
+Trim
+Remove non-space whitespace character
+Remove Chained space character
+
+string s
+if(token.startWith("<")):
+	stack.push(token))
+	while(token)

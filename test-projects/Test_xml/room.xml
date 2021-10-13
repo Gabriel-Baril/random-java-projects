@@ -1,0 +1,11 @@
+<stage level="1">
+	<room type="1" id="1" rarity="1" width="13" height="7">
+		<spawm type="1" id="67" x="5" y="3" mutable="true"/>
+		<spawm type="1" id="135" x="5" y="3" mutable="true"/>
+		<spawm type="1" id="67" x="5" y="3" mutable="true"/>
+		<spawm type="2" id="20" x="5" y="3" mutable="true"/>
+		<spawm type="4" id="180" x="5" y="3" mutable="true"/>
+		<spawm type="1" id="67" x="5" y="3" mutable="true"/> 
+		<spawn type="7" id="13" x="0" y="0" mutable="false"/>
+	</room>
+</stage>

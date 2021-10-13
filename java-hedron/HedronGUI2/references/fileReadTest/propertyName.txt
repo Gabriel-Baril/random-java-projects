@@ -1,0 +1,11 @@
+paddingleft
+paddingtop
+paddingright
+paddingbottom
+padding
+marginleft
+margintop
+marginright
+marginbottom
+margin
+style
